@@ -1,1 +1,1 @@
-Hotel management
+print("Hotel management")
