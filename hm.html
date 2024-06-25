@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Management</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <form class="booking-form" action="#" method="post">
+        <div class="elem-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="visitor_name" placeholder="John" pattern="[A-Z\s-a-z]{3,20}" required>
+        </div>
+      <div class="elem-group">
+            <label for="email">Email</label>
+            <input type="text" id="email" name="visitor_email" placeholder="john@gmail.com" pattern="[A-Z\s-a-z]{3,20}" required>
+        </div>
+      <div class="elem-group">
+            <label for="room preference">Room Preferences</label>
+            <input type="text" id="name" name="room prefered" placeholder="A/c" pattern="[A-Z\s-a-z]{3,20}" required>
+        </div>
+        <button type="submit">Book Now</button>
+    </form>
+</body>
+</html>
